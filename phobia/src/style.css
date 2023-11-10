@@ -637,7 +637,11 @@ marquee {
   .hero_paragraph {
     width: 80%;
   }
-  /*hero*/ /*section b*/
+  .not_none {
+    display: none;
+  }
+  /*hero*/
+  /*section b*/
   .b_components {
     flex-wrap: wrap;
     justify-content: center;
