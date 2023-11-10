@@ -49,6 +49,11 @@ function SectionA() {
               setzIndex("zindex");
             }}
             controls
+            controls
+            muted
+            autoPlay
+            loop
+            playsInline={true}
           ></video>
         </section>
       </section>
