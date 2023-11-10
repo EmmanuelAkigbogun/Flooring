@@ -2,7 +2,7 @@ import React from "react";
 import { useRef, useState } from "react";
 function SectionA() {
   let video = useRef(null);
-  let [display, setdisplay] = useState("");
+  let [display, setdisplay] = useState("not_none");
   let [zIndex, setzIndex] = useState("zindex");
   return (
     <>
