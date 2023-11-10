@@ -641,7 +641,7 @@ marquee {
     display: none;
   }
   /*hero*/
-  /*section b*/
+   /*section b*/
   .b_components {
     flex-wrap: wrap;
     justify-content: center;
@@ -656,6 +656,7 @@ marquee {
   /*section d*/
   .d_image {
     width: 35vw;
+    border-radius: var(--border-radius);
   }
   /*section d*/
   /*section e*/
