@@ -42,7 +42,7 @@ function Nav() {
                 }}
               >
                 <img
-                  src="./src/assets/close.svg"
+                  src="./src/assets/Close.svg"
                   alt=""
                   className={`close ${state}close`}
                 />
