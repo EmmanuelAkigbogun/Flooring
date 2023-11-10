@@ -15,11 +15,6 @@
   --border-radius: 20px;
   --font-family: Nunito Sans;
 }
-
-input[type="radio"] {
-  border: 1px solid white;
-  outline: 1px solid #fff;
-}
 body::-webkit-scrollbar,
 .scroll::-webkit-scrollbar,
 .fixed::-webkit-scrollbar,
