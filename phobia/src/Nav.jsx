@@ -98,7 +98,7 @@ function Nav() {
                     <img
                       src="./src/assets/expand_more.svg"
                       alt=""
-                      className={`${click == "" ? "" : "rotate180"} ${
+                      className={`${click1 == "" ? "" : "rotate180"} ${
                         hover1 == "" ? "" : "hover_rotate180"
                       }`}
                     />
