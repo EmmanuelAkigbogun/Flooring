@@ -49,14 +49,6 @@ function SectionA() {
               setzIndex("zindex");
             }}
             controls
-            muted
-            autoPlay
-            controlsList="nofullscreen nodownload noremoteplayback"
-            disablePictureInPicture
-            disableRemotePlayback={false}
-            loop
-            poster=""
-            playsInline
           ></video>
         </section>
       </section>
