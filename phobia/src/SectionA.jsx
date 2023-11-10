@@ -45,7 +45,7 @@ function SectionA() {
               setzIndex("");
             }}
             onPause={() => {
-              setdisplay((display = ""));
+              setdisplay((display = "not_none"));
               setzIndex("zindex");
             }}
             controls
