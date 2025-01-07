@@ -1,11 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
 /*general*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: default;
 }
 :root {
   --text-color: #072039;
@@ -63,6 +63,9 @@ body::-webkit-scrollbar,
 .absolute {
   position: absolute;
 }
+button, input[type=radio], video, .menu, .video_image{
+  cursor: pointer;
+}
 .paragraph {
   color: var(--text-color);
   font-family: var(--font-family);
@@ -70,6 +73,7 @@ body::-webkit-scrollbar,
   line-height: 28px;
   font-size: 16px;
   font-style: normal;
+  cursor:default;
 }
 .bold {
   color: var(--text-color);
@@ -246,6 +250,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--text-color);
+  cursor: pointer;
 }
 .menu,
 .close,
@@ -755,6 +760,7 @@ marquee {
   .hero {
     flex-wrap: wrap;
     padding: 0%;
+  
   }
   .hero_merge {
     margin: auto;
@@ -781,10 +787,11 @@ marquee {
     width: 100%;
   }
   .hero_paragraph {
-    width: 100%;
+    width: 80%;
   }
   .hero_image {
     height: 60vh;
+    width: 100vw;
     object-fit: cover;
   }
   /*hero*/
